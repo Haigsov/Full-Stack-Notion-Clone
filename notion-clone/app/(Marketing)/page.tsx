@@ -1,11 +1,12 @@
-import { Button } from "@/components/ui/button";
 
-export default function Home() {
+const MaketingPage = () => {
   return (
-    <div>
-      <Button className="bg-emerald-500 text-white">
-        Delete
-      </Button>
+    <div className="min-h-full flex flex-col">
+      <div className="flex flex-col items-center">
+
+      </div>
     </div>
   )
 }
+
+export default MaketingPage;
