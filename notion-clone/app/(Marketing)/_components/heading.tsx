@@ -1,9 +1,11 @@
 "use client";
 
-export const Heading = ({ children }) => {
+export const Heading = () => {
     return (
-        <h1 className="text-4xl font-bold text-gray-900">
-        {children}
-        </h1>
+        <div className="max-w-3xl space-y-4">
+            <h1>
+            Your Ideas, Documents, & Plans, Unified, Welcome to <span className="underline">Jotion</span>
+            </h1>
+        </div>
     )
 };
